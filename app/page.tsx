@@ -12,33 +12,33 @@ import Link from "next/link";
 
 const features = [
   {
-    name: "Store your PDF Documents",
-    description: "Keep all your important PDF files securely stored and easily accessible anytime, anywhere.",
+    name: "Secure PDF Storage",
+    description: "Safely store and access all your important PDFs, anytime and from anywhere, with peace of mind.",
     icon: GlobeIcon,
   },
   {
-    name: "Blazing Fast Responses",
-    description: "Experience lightning-fast answers to your queries, ensuring you get the information you need instantly.",
+    name: "Instant Response Time",
+    description: "Get lightning-fast answers to your questions, delivering the information you need in a flash.",
     icon: ZapIcon,
   },
   {
-    name: "Chat Memorization",
-    description: "Our intelligent chatbot remembers previous interactions, provideing a seamless and personalized experience.",
+    name: "Smart Chat Memory",
+    description: "Our chatbot remembers your past interactions, ensuring a smooth and personalized experience every time.",
     icon: BrainCogIcon,
   },
   {
-    name: "Interactive PDF Viewer",
-    description: "Engage with your PDFs like never before using our intuitive and interactive viewer",
+    name: "Interactive PDF Experience",
+    description: "Dive deeper into your PDFs with our intuitive, interactive viewer that brings your documents to life.",
     icon: EyeIcon,
   },
   {
-    name: "Cloud Backup",
-    description: "Rest assured knowing your documents are safely backed up on the cloud, protected from loss or damage.",
+    name: "Automatic Cloud Backup",
+    description: "Never worry about losing your documents—your files are automatically backed up and secure in the cloud.",
     icon: ServerCogIcon,
   },
   {
-    name: "Responsive Across Devices",
-    description: "Access and chat with your PDFs seamlessly on any device, whether it's your desktop, tablet, or smartphone.",
+    name: "Cross-Device Compatibility",
+    description: "Seamlessly access and interact with your PDFs on any device—whether it's your desktop, tablet, or smartphone.",
     icon: MonitorSmartphoneIcon
   }
 ]
@@ -50,24 +50,24 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-base font-semibold leading-7 text-indigo-600">
-              Your Interactive Document Companion
+              Meet Your Document Companion
             </h2>
 
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Transform Your PDFs into Interactive Conversations       
+              PDFs into Interactive Conversations    
             </p>
 
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Introducing {" "}
-              <span className="font-bold text-indigo-600">Chat with PDF.</span>
+              <span className="font-bold text-indigo-600">PDFQuery AI.</span>
               <br />
-              <br /> Upload your document, and our chatbot will answer questions, summarize content, and asnwer all your Qs. 
-              Ideal for everyone, <span className="text-indigo-600">
-                Chat with PDF
+              <br /> Upload your document, and our chatbot will provide summaries, answer your questions, and assist with all your inquiries.
+              Perfect for everyone, <span className="text-indigo-600">
+                QueryPDF AI
               </span>{" "}
               turns static documents into {" "}
-              <span className="font-bold">dynamic Conversations</span>,
-              enhancing productivity 10x fold effortlessly.
+              <span className="font-bold">Dynamic Conversations</span>,
+              effortlessly boosting productivity.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <Image 
               alt = "App Screenshot"
-              src = "https://i.imgur.com/VciRSTI.jpeg"
+              src = "https://i.imgur.com/RwABxvj.png"
               width={2432}
               height={1442}
               className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
