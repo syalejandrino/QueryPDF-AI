@@ -1,23 +1,22 @@
-'use client'
+'use client';
 import { PlusCircleIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 
-function PlaceholderDocument() {
-    const router = useRouter();
+export default function UploadPlaceholder() {
+  const navigation = useRouter();
 
-    const handleClick = () => {
-        router.push("/dashboard/upload");
-    };
+  const redirectToUpload = () => {
+    navigation.push("/dashboard/upload");
+  };
 
-    return (
-        <Button 
-        onClick={handleClick} 
-        className="flex flex-col items-center justify-center w-64 h-80 
-        rounded-xl bg-gray-200 drop-shadow-md text-gray-400">
-            <PlusCircleIcon className="h-16 w-16"/>
-            <p>Add a document</p>
-        </Button>
-    );
+  return (
+    <Button
+      onClick={redirectToUpload}
+      className="h-80 w-64 flex flex-col items-center justify-center bg-gray-200 text-gray-400 rounded-lg shadow-md"
+    >
+      <PlusCircleIcon size={64} />
+      <span>Upload a File</span>
+    </Button>
+  );
 }
-export default PlaceholderDocument;
